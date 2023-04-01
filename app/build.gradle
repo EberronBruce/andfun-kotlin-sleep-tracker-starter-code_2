@@ -62,6 +62,10 @@ android {
         jvmTarget = "11"
     }
 
+    lintOptions {
+        disable 'NullSafeMutableLiveData'
+    }
+
 }
 
 dependencies {
